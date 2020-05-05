@@ -1,0 +1,433 @@
+.margin-0 {
+    margin: 0;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-50 {
+    margin-top: 50px !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-28 {
+    font-size: 28px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-80 {
+    font-size: 80px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-45 {
+    font-size: 45px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pw-60 {
+    padding: 0 60px;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.dark-background {
+    background-color: #11161a;
+}
+
+.dark-color {
+    color: #11161a;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: #f7f7f7 !important;
+    color: #333333 !important;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: #e8f0fe !important;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-yellow {
+    color: #bc7910;
+}
+
+.text-light-yellow {
+    color: #fb9c0e !important;
+}
+
+.vertical-center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.line-height-80 {
+    line-height: 80px;
+}
+
+body {
+    margin: 0px !important;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.login-form-div {
+    width: 62%;
+    text-align: left;
+    margin: auto;
+}
+
+.login-button-div {
+    width: 62%;
+    margin: auto;
+}
+
+.login-button {
+    width: 100%;
+    border-radius: 4px;
+    background-color: #f8a314 !important;
+}
+
+.front-sidebar {
+    width: 23rem;
+    height: 100%;
+    color: white;
+    float: left;
+    background: #11161a;
+    padding: 3.5rem 2.5rem;
+}
+
+.front-content {
+    padding-left: 23rem;
+}
+
+.logo-div a {
+    color: white !important;
+    font-size: 32px;
+}
+
+.logo-img {
+    width: 12rem;
+    margin-right: 0.9rem;
+}
+
+.logo-div {
+    padding-left: 1.5rem;
+}
+
+.menubar-ul {
+    list-style: none;
+    margin: 0;
+    padding-top: 6rem;
+}
+
+.menubar-ul li {
+    font-size: 1.8rem;
+    margin: 2.1rem 0.4rem;
+    cursor: pointer;
+}
+
+.menubar-ul li.active {
+    background-color: #342d1a;
+    border-radius: 3px;
+}
+
+.menubar-ul li a {
+    color: white !important;
+}
+
+.menubar-ul li img {
+    width: 1.1rem;
+    margin: 0 1.3rem;
+    margin-bottom: 0.1rem;
+}
+
+.front-content {
+    padding-top: 6rem !important;
+}
+
+.login-form-div input {
+    height: 5rem !important;
+    margin-bottom: 2rem !important;
+}
+
+button {
+    text-transform: none !important;
+    font-family: "roboto-regular", sans-serif !important;
+}
+
+.button-yellow {
+    background-color: #f8a314 !important;
+    height: 4rem;
+    line-height: 4rem;
+    border-radius: 3px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.float-right {
+    float: right;
+}
+
+@media screen and (min-width: 720px) {
+    .media-float-right {
+        float: right;
+    }
+}
+
+.row {
+    width: 92%;
+}
+
+.table {
+    color: #363535;
+    font-family: "roboto-regular", sans-serif !important;
+    border-collapse: separate !important;
+}
+
+.table tbody tr {
+    background-color: white;
+}
+
+.table th {
+    border: none;
+    border-bottom: 0px !important;
+    font-size: 1.4rem;
+}
+
+.table tbody td,
+.table thead th {
+    padding: 1.5rem 2rem !important;
+    color: #333333;
+}
+
+.table tbody td {
+    border-top: 1px solid #c8c8c8;
+}
+
+.table tbody tr:last-child td {
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.table tbody td:first-child {
+    border-radius: 6px 0 0 6px;
+    border-left: 1px solid #c8c8c8 !important;
+}
+
+.table tbody td:last-child {
+    border-radius: 0 6px 6px 0;
+    border-right: 1px solid #c8c8c8 !important;
+}
+
+body {
+    background: #f1f1f1 !important;
+}
+
+.text-gray {
+    color: #999999 !important;
+}
+
+.point-div {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+.status-to-received {
+    background-color: #333333;
+}
+
+.status-received {
+    background-color: #afaff4;
+}
+
+.status-waiting {
+    background-color: #ffcd89;
+}
+
+.status-progress {
+    background-color: #8ab4f1;
+}
+
+.status-done {
+    background-color: #95dd57;
+}
+
+.repair-form-div {
+    text-align: left;
+    margin: auto;
+}
+
+.repair-form-div input {
+    height: 5rem !important;
+    margin-bottom: 1rem;
+}
+
+.repair-modal {
+    width: 38rem;
+}
+
+.bootstrap-tagsinput .tag {
+    line-height: 4rem;
+    border-radius: 20px;
+    background: transparent;
+    color: #999999;
+    border: 1px solid #999999;
+    padding: 0.5rem 1rem;
+}
+
+.bootstrap-tagsinput input {
+    display: inline-block;
+    width: 10rem;
+    height: 3rem;
+    background-color: #f7f7f7 !important;
+    padding: 5px;
+}
+
+.bootstrap-tagsinput {
+    padding: 1rem;
+    background-color: #f7f7f7 !important;
+}
+
+.modal-footer {
+    border-top: 0px;
+    background: transparent;
+    padding: 2rem 0px;
+}
+
+.modal-content {
+    background: transparent;
+}
+
+.modal-body {
+    background-color: white;
+    padding-bottom: 6rem;
+    border-radius: 0.5rem;
+}
+
+.modal-footer .button-default {
+    background-color: white;
+    color: black;
+    float: left;
+}
+
+.modal-footer .button-dark {
+    background-color: #11151a;
+    color: white;
+}
+
+.modal-footer .button-submit {
+    background-color: #f89f14;
+    color: white;
+}
+
+.modal-footer .button-submit,
+.modal-footer .button-default {
+    height: 4rem;
+    line-height: 4rem;
+    width: 48%;
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+.modal-body>p {
+    margin-bottom: 0px;
+}
+
+.success-p {
+    padding-top: 1rem;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.success-result {
+    font-size: 13px;
+    line-height: 13px;
+    padding-left: 1.5rem;
+}
+
+#success_repair_modal .modal-body {
+    padding: 15px 5rem;
+}
+
+#success_problem span {
+    line-height: 3rem;
+    border-radius: 20px;
+    background: transparent;
+    color: #999999;
+    border: 1px solid #999999;
+    padding: 0.1rem 1rem;
+    font-size: 13px;
+    line-height: 3rem;
+    margin: 2px;
+    display: inline-block;
+}
+
+.text-problem span {
+    border-radius: 20px;
+    background-color: #f6f1f1;
+    color: #999999;
+    padding: 0rem 1rem;
+    font-size: 14px;
+    line-height: 3rem;
+    margin: 2px;
+    display: inline-block;
+}
+
+#success_repair_modal .modal-footer .button-submit,
+#success_repair_modal .modal-footer .button-dark {
+    height: 5rem;
+    line-height: 5rem;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 17px;
+}
